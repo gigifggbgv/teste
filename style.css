@@ -1,5 +1,9 @@
-
-.accordio-naccordion-flush {
-flex-direction: column;
-flex-box: 500px;
+body{
+   !important;
+}
+.accordion-body{
+    background-color: rgb(255, 255, 255);
+}
+.accordion-header{
+    background-color: rgb(155, 176, 217);
 }
