@@ -1,43 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Previsão do Tempo Futura</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Previsão do Tempo Futura</h1>
-        <p>Confira a previsão do tempo para os próximos dias na sua região.</p>
-
-        <div class="weather-card-container">
-            <div class="weather-card">
-                <h2>Amanhã</h2>
-                <div class="weather-icon">&#x2600;</div> <p class="temperature">28°C</p>
-                <p><strong>Condição:</strong> Ensolarado</p>
-                <p><strong>Vento:</strong> 15 km/h N</p>
-                <p><strong>Umidade:</strong> 60%</p>
-            </div>
-
-            <div class="weather-card">
-                <h2>Quarta-feira</h2>
-                <div class="weather-icon">&#x2601;</div> <p class="temperature">25°C</p>
-                <p><strong>Condição:</strong> Parcialmente Nublado</p>
-                <p><strong>Vento:</strong> 10 km/h L</p>
-                <p><strong>Umidade:</strong> 75%</p>
-            </div>
-
-            <div class="weather-card">
-                <h2>Quinta-feira</h2>
-                <div class="weather-icon">&#x26C6;</div> <p class="temperature">22°C</p>
-                <p><strong>Condição:</strong> Chuva Leve</p>
-                <p><strong>Vento:</strong> 20 km/h SO</p>
-                <p><strong>Umidade:</strong> 88%</p>
-            </div>
-
-            </div>
-    </div>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item’s accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item’s accordion body. Let’s imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item’s accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
